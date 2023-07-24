@@ -1,0 +1,43 @@
+
+body {
+    background-color: #F9F7F7;
+}
+
+#keys-container {
+    position: absolute;
+    top: 45%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+button {
+    border: none;
+    background-color: #DBE2EF;
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 900;
+    cursor: pointer;
+    border-radius: 15px;
+    transition: all 0.1s;
+}
+
+.btn-name-text {
+    color: #112D4E;
+}
+
+.btn-sound-text {
+    color: #3F72AF;
+}
+
+.playing {
+    opacity: 0.7;
+    padding: 10px 50px;
+}
+
+.looped {
+    opacity: 0.8;
+    padding: 10px 50px;
+    background-color: #ececcc;
+}
